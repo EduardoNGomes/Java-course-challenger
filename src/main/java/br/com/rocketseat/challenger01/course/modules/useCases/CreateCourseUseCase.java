@@ -24,6 +24,7 @@ public class CreateCourseUseCase {
     var course = CourseEntity.builder()
     .active(Active.OFF)
     .name(dto.getName())
+    .category(dto.getCategory())
     .build();
     
     @SuppressWarnings("null")
