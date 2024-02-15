@@ -14,8 +14,17 @@ POST {{baseUrl}}/course/create
 Content-Type: application/json
 
 {
-  "name":"React",
-  "category":""
+  "name":"Vue",
+  "category":"WEB"
 }
+
+####
+
+# @name find_all_courses
+
+GET {{baseUrl}}/course?search=WEB
+Content-Type: application/json
+
+
 
 ####
