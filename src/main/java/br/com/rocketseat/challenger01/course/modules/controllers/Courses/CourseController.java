@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/course")
-public class CreateCourseController {
+public class CourseController {
 
   @Autowired
   private CreateCourseUseCase createCourseUseCase;
