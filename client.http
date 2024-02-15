@@ -14,7 +14,7 @@ POST {{baseUrl}}/course/create
 Content-Type: application/json
 
 {
-  "name":"Node"
+  "name":"React"
 }
 
 ####

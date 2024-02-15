@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 
 import br.com.rocketseat.challenger01.course.modules.enums.Active;
 import jakarta.persistence.Column;
@@ -32,11 +33,13 @@ public class CourseEntity {
 
   private Active active;
 
+  private String category;
+
   @CreationTimestamp
   @Column(name = "created_at")
   private LocalDateTime createdAt;
 
-  @CreationTimestamp
+  @UpdateTimestamp
   @Column(name = "updated_at")
   private LocalDateTime updatedAt;
 
