@@ -4,3 +4,17 @@
 # @name alive
 
 GET {{baseUrl}}/alive/
+
+####
+
+
+# @name create_course
+
+POST {{baseUrl}}/course/create
+Content-Type: application/json
+
+{
+  "name":"Node"
+}
+
+####
