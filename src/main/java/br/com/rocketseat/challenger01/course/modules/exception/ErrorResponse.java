@@ -1,4 +1,4 @@
-package br.com.rocketseat.challenger01.course.modules.error;
+package br.com.rocketseat.challenger01.course.modules.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
