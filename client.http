@@ -49,7 +49,7 @@ Content-Type: application/json
 ####
 
 
-# @name delete_course
+# @name change_course_state
 
 PATCH   {{baseUrl}}/course/73052153-433a-4783-8565-368234ee4d3a/active
 Content-Type: application/json
