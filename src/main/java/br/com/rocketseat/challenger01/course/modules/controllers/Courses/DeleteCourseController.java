@@ -31,7 +31,7 @@ public class DeleteCourseController {
       return ResponseEntity.ok().body("");
     } catch (Exception e) {
       var errorResponse = ErrorResponse.builder().message(e.getMessage()).build();
-       return ResponseEntity.badRequest().body(errorResponse);
+      return ResponseEntity.badRequest().body(errorResponse);
     }
 
   }
