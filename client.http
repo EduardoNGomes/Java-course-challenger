@@ -22,7 +22,7 @@ Content-Type: application/json
 
 # @name find_all_courses
 
-GET {{baseUrl}}/course?search=Vue
+GET {{baseUrl}}/course?search=WEB
 Content-Type: application/json
 
 
@@ -44,6 +44,14 @@ Content-Type: application/json
 # @name delete_course
 
 DELETE  {{baseUrl}}/course/46e58a33-1127-4cd8-9022-6c954fd650f6
+Content-Type: application/json
+
+####
+
+
+# @name delete_course
+
+PATCH   {{baseUrl}}/course/73052153-433a-4783-8565-368234ee4d3a/active
 Content-Type: application/json
 
 ####
