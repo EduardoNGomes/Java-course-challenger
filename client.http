@@ -22,9 +22,11 @@ Content-Type: application/json
 
 # @name find_all_courses
 
-GET {{baseUrl}}/course?search=Vue
+PUT {{baseUrl}}/course/46e58a33-1127-4cd8-9022-6c954fd650f6
 Content-Type: application/json
 
-
+{
+  "name":"JavaScript"
+}
 
 ####
