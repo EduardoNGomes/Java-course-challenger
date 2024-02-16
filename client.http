@@ -40,3 +40,10 @@ Content-Type: application/json
 }
 
 ####
+
+# @name delete_course
+
+DELETE  {{baseUrl}}/course/46e58a33-1127-4cd8-9022-6c954fd650f6
+Content-Type: application/json
+
+####
