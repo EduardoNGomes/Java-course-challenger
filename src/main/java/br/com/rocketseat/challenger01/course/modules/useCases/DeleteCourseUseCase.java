@@ -19,6 +19,12 @@ public class DeleteCourseUseCase {
       throw new Exception("Resource not found");
     }
 
+    var course = this.courseRepository.findById(id);
+
+    if(course.isEmpty()){
+      throw new Exception("Resource not found");
+    }
+
     this.courseRepository.deleteById(id);
   }
 }
