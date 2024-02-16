@@ -22,7 +22,7 @@ Content-Type: application/json
 
 # @name find_all_courses
 
-GET {{baseUrl}}/course?search=WEB
+GET {{baseUrl}}/course?search=Vue
 Content-Type: application/json
 
 
